@@ -1,0 +1,59 @@
+
+body {
+  height: auto;
+
+  background-color: #f1f1f1;
+  background-image: url(../images/back.png);
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  background-position: top;
+
+  font-size: 14px;
+}
+
+button {
+
+  @include border-radius(12px);
+
+  $color: #f7941d;
+  $size: 21px;
+
+  position: relative;
+
+  line-height: 1;
+  padding: 2px 10px;
+  margin: 0 10px;
+  height: $size;
+
+  font-size: 14px;
+
+  background: $color;
+  cursor: pointer;
+
+  color: #fff;
+
+  &:focus{
+
+    outline: 0;
+    background-color: #39a2d8;
+  }
+  &:hover {
+    background-color: #39a2d8;
+  }
+}
+ 
+ h1,
+ h2 {
+  margin-bottom: 10px;
+  
+  font-family: 'PFDinTextCondPro';
+  color:  #000000;
+  font-size: 26px;  
+ }
+
+main {
+  min-height: calc(100vh - 160px);
+  margin: 0 auto;
+
+  background: #fff;
+}
