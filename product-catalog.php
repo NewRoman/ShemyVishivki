@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Схемы вышивки</title>
-    
+    <title>Каталог схем вышивок</title>
+
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400|Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href="assets/stylesheets/app.css" rel="stylesheet">
   </head>
@@ -15,15 +15,10 @@
       include 'functions.php';
       header(); 
     ?>
-    
-    <?php
-      offer(); 
-    ?>
 
     <?php
-      samplers(); 
-    ?>
-
+      prod_list(); 
+    ?>  
 
     <?php
       footer(); 
