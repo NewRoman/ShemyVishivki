@@ -1,0 +1,51 @@
+.m-nav {
+  padding: 25px 0;
+  padding-bottom: 0px;
+
+  &--head {
+    @include single-box-shadow(0, 7px, 20px, -8px, rgba($black, 0.35), null);
+
+    background-color: $pig-pink;    
+  }
+
+  &--foot {
+    background-color: $amaranth;   
+  }
+
+
+  &--list {
+    margin-bottom: 0;
+  }
+
+  &--item {
+    padding: 0;
+  }
+
+  &--link {
+    @include transition-property(border-color, color);
+    @include transition-duration(400ms, 600ms);
+
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0px;
+    
+    border-bottom: 0px $pig-pink solid;
+
+    color: $rosewood;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1024px) {
+      padding: 10px;
+      padding-top: 0px;
+
+      font-size: 15px;
+    }
+  }
+
+  &--link-foot {
+    border-color: $amaranth;
+
+    color: $white;
+  }
+}

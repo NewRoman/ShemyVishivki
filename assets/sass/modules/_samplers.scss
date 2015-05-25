@@ -1,0 +1,118 @@
+.m-samplers {
+  position: relative;
+
+  background-color: $pink;
+
+  &:before {
+    @include stretch(10px, 0, 0, false);
+
+    content: '';
+
+    width:100%;
+    height: 2px;
+    border-top: 2px $white dotted;
+  }
+
+  &--title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    color: $amaranth;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  &--item {
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 31%;
+
+    padding: 0!important;
+    vertical-align: top;
+
+    &:nth-child(3n+3) {
+      margin-right: 0px;
+    }
+
+    &>figure {
+      position: relative;
+
+      &:hover figcaption {
+        @include stretch(76%, 0, 0, 0);
+      }
+
+      div {
+        overflow: hidden;
+
+        border: 4px $white solid;
+        border-radius: 12px;
+
+        max-height: 350px;
+
+        @media screen and (max-width: 1022px) {
+          height: 268px;
+        }
+
+        @media screen and (min-width:1023px) and (max-width: 1159px) {
+          height: 307px;
+        }
+
+        @media screen and (min-width: 1160px) {
+          height: 339px;
+        }
+      }      
+        
+      img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      figcaption {
+        @include transition-property(top);
+        @include transition-duration(300ms);
+        @include stretch(102%, 0, 0, 0);
+        
+        height: 23.2%;
+        margin: 0 auto;
+        padding-left: 25px;
+        width: 97.8%;
+
+        border-radius: 0 0 12px 12px;
+        background-color: rgba($black, 0.5);
+
+        color: $white;
+        font-size: 20px;
+        text-align: left;
+
+        &:before {
+          @include inline-block;
+
+          content: '';
+
+          height: 100%;
+
+        }
+
+        span {
+          @include inline-block;
+          
+          width: 80%;
+        }
+
+        i {
+          @include stretch(16px,23px,false,false);
+
+          display: inline-block;
+          height: 40px;
+          width:40px;
+
+          background-image: url('../images/info.png');
+          background-repeat: no-repeat;
+        }
+      }
+    } 
+  }
+}

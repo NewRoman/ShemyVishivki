@@ -1,0 +1,17 @@
+.m-submit {
+  padding-top: 36px;
+
+  &--price {    
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 28px;
+    color: $rosewood;
+
+    span {
+      color: $amaranth;
+    }
+  }
+
+  button {
+    width: 100%;
+  }
+}

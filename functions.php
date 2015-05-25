@@ -1,16 +1,19 @@
-// <?php
-  /function categories() {
-    include 'blocks/categories-menu.php';
-  }
-  function header() {
+ <?php
+
+  function head() {
     include 'blocks/header.php';
   }
 
   function footer() {
     include 'blocks/footer.php';
   }
+
   function main_menu() {
     include 'blocks/main-menu.php';
+  }
+
+  function slider() {
+    include 'blocks/slider.php';
   }
 
   function offer() {
@@ -19,21 +22,19 @@
   function samplers() {
     include 'blocks/samplers.php';
   }
-   function prod_list() {
-    include 'blocks/product-list.php';
+  function prod_cat_list() {
+    include 'blocks/product-cat-list.php';
   }
 
-  // function what2do_block() {
-  //   include 'parts/what2do_block.php';
-  // }
+  function filters() {
+    include 'blocks/filters.php';
+  }
 
-  // function education_institute_main_block() {
-  //   include 'parts/education_institute_main_block.php';
-  // }
 
-  // function form_callback() {
-  //   include 'parts/form_callback.php';
-  // }
+
+  function categories() {
+    include 'blocks/categories-menu.php';
+  }
 
 
 
