@@ -11,51 +11,84 @@ body {
   // background-position: top;
 
   // font-size: 14px;
+  @include sticky-footer(292px, "#sticky_footer_head", "#sticky_footer_in_head", "#sticky_footer_foot")
 }
 
+label {
+  position: relative;
+
+  padding-left: 64px;
+
+  font-weight: 500;
+  font-size: 22px;
+  color: $metallic-copper;
+
+  cursor: pointer;
+
+  &>i {
+    @include stretch(-4px, false, false, 5px);
+
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  &>input[type="checkbox"] {
+    visibility: hidden;
+    display: none;    
+  }
+
+  &>b {
+    color: $gray-dark;
+  }
+
+  &>span {
+    color: $amaranth;
+  }
+}
+
+
 button {
+  padding: 15px;
+  
+  background-color: $thunderbird;
+  border: none;
+  box-shadow: none;
 
-  // @include border-radius(12px);
+  text-align: center;
+  color: $white;
+  font-size: 18px;
 
-  // $color: #f7941d;
-  // $size: 21px;
-
-  // position: relative;
-
-  // line-height: 1;
-  // padding: 2px 10px;
-  // margin: 0 10px;
-  // height: $size;
-
-  // font-size: 14px;
-
-  // background: $color;
-  // cursor: pointer;
-
-  // color: #fff;
-
-  // &:focus{
-
-  //   outline: 0;
-  //   background-color: #39a2d8;
-  // }
-  // &:hover {
-  //   background-color: #39a2d8;
-  // }
+  &:hover {
+    color: rgba($white, 0.75);
+  }
 }
  
  h1,
- h2 {
-  margin: 20px 0;
-  
-  color:  #e83e52;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: $font-size-h2;//=30px необходимо уточнить размер  
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {  
+  font-family: 'Roboto Condensed', sans-serif; 
  }
 
-main {
-  // min-height: calc(100vh - 160px);
-  // margin: 0 auto;
+input[type="text"],
+textarea {
+  margin-bottom: 10px;
+  
+  outline: none;
+  border: none;
+  border-bottom: 2px $amaranth solid;
+  background: none;
 
-  // background: #fff;
+  font-size: 16px;
+
+  &:focuse {
+    outline: none;
+  }
+
 }

@@ -1,0 +1,95 @@
+.m-offer {
+  margin-bottom: 50px;
+  
+  &--description {
+    font-size: 18px;
+  }
+
+  &--title {
+    margin-top: 45px;
+    margin-bottom: 31px;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 26px;
+    color: $amaranth;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 24px;
+    }
+  }
+
+  &--item {
+    height: 129px;
+    margin-bottom: 27px;
+    margin-right: 2.5%; 
+    padding: 17px 0px 10px 0px;
+    width: 31%;
+    vertical-align: top;
+
+    background-color: $pink;
+
+    &:nth-child(3n+3) {
+      margin-right: 0px;
+    }
+
+    &:nth-child(2n+2) {
+      background-color: $amaranth; 
+
+      &>span {
+        color: $white;
+      }     
+    }
+
+    i {
+      display: inline-block;
+      height: 49px;
+      margin-bottom: 7px;
+      width: 49px;
+
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    i.icon-scheme {
+      background-image: url('../images/icon-scheme.png');
+    }
+
+    i.icon-canvas {
+      background-image: url('../images/icon-canvas.png');
+    }
+
+    i.icon-thread {
+      background-image: url('../images/icon-thread.png');
+    }
+
+    i.icon-marker {
+      background-image: url('../images/icon-marker.png');
+    }
+
+    i.icon-manual {
+      background-image: url('../images/icon-manual.png');
+    }
+
+    i.icon-bullet {
+      width: 89px;
+
+      background-image: url('../images/icon-bullet.png');
+    }
+
+    &>span {
+      font-size: 16px;
+    }
+  }
+
+  &--to-constructor {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 15px 100px;
+
+    background-color: $thunderbird;
+
+    font-size: 18px;
+    color: $white;
+  }
+}

@@ -1,24 +1,55 @@
-.hidden {
-  visibility: hidden;
-}
-.none{
-  display: none;
-}
-.clear{
-  clear: both;
-}
-.current {
-  color: #000;
+a:hover {
   text-decoration: none;
-  pointer-events: none;
 }
 
-.m-pagination {
-	.active,
-  .end {
-    background-color: #dfddde;
+// разные состояния ссылок в главном меню хедера
+.m-nav--link {
+  &:hover,
+  &.active {
+    border-bottom: 2px $charm solid;
 
-    cursor: default;
-    pointer-events: none;
+    text-decoration: none;
+    color: $charm;
+  }
+}
+
+.m-nav--link-foot {
+  &:hover,
+  &.active {
+    border-bottom: 2px $amaranth solid;
+
+    text-decoration: none;
+    color: $white;
+  } 
+}
+
+// ссылка на конструктор с главной страницы
+.m-offer--to-constructor:hover {
+  color: rgba($white, 0.75);
+}
+
+// состояние активной ссылки в фильтрах на странице списка продукции
+.m-filters--link {
+  &:hover,
+  &.active {
+    // border-bottom-color: $amaranth;
+    text-decoration: underline;
+
+    color: $amaranth;
+  }
+}
+
+// кастомизированые чекбоксы для всего сайта
+label {
+
+  &>i {
+    background-image: url('../images/empty-check.png');
+  }
+
+  &>input[type="checkbox"]:checked {
+
+    &+i {
+      background-image: url('../images/fil-check.png');
+    }
   }
 }

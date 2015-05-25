@@ -1,0 +1,42 @@
+.m-wyw {
+  padding-bottom: 30px;
+
+  border-bottom: 2px $amaranth dotted;
+
+  &--opt-list {
+    margin: 0;
+    padding: 0;
+    margin-left: 58px;
+    width: 675px;
+
+    list-style-type: none;
+  }
+
+  &--opt-list-item {
+    margin-bottom: 5px;
+    border-bottom: 1px $submarine solid;
+
+    &>label {
+      padding-left: 45px; 
+
+      font-size: 16px;
+      color: $gray-dark;
+    }
+
+    &>label>i {
+      top: 2px;
+
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  &--opt-text {
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    line-height: 28px;
+    color: $amaranth;
+    font-size: 22px;
+  }
+}

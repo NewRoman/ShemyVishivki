@@ -1,0 +1,52 @@
+.m-sizes {
+  padding-bottom: 40px;
+
+  border-bottom: 2px $amaranth dotted;
+
+  &--head {
+    margin: -10px 0 20px 57px;
+
+    font-size: 22px;
+  }
+
+  &--item {
+    margin-right: 2%;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  } 
+
+  &--label {
+    color: $nevada;
+    font-size: 34px;
+    text-align: center;
+    line-height: 23px;
+
+    &>span {
+      display: inline-block;
+      margin-top: -5px;
+
+      line-height: 38px;
+      color: $nevada;
+      font-size: 16px;
+    }
+  }
+
+  &--manual-label {
+    width: 19%;
+
+    font-size: 16px;
+    color: $nevada;
+  }
+
+  &--manual-input {
+    
+    margin-right: 30px;
+    width: 285px;
+
+    font-size: 34px!important;
+    line-height: 40px!important;
+  }
+
+}

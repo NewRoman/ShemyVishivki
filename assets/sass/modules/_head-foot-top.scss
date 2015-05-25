@@ -1,0 +1,179 @@
+.m-head-foot-top {
+  padding-top: 30px;
+  padding-bottom: 20px; 
+
+// logo container
+  &--logo {
+    i {
+      @include stretch(0, false, false, 0);
+
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+// title
+    &-title {
+      position: relative;
+
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 2px;
+      padding-left: 19%;      
+
+      a {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 40px;
+        
+      }
+
+    }
+// title in header
+    &-title-rose {
+      a {
+        color: $rosewood;         
+      }
+    }
+
+//title in footer
+    &-title-white {
+      padding-left: 24%;
+
+      a {
+        color: #FFF;        
+      }
+
+      
+      @media screen and (max-width: 1024px) {
+        font-size: 32px;
+      }
+    }
+
+
+// logo header
+    &-ico-head {
+      width: 78px;
+      height: 78px;
+      
+      background-image: url('../images/logo-header.png');
+    }
+// лого футера
+    &-ico-foot {
+      width: 85px;
+      height: 85px;
+      
+      background-image: url('../images/logo-footer.png'); 
+      
+    }
+
+// text under title header
+    &-text {
+      margin-top: -5px;
+      padding-left: 19.6%;
+
+
+      a {
+        font-size: 19px;
+        color: $black;
+      }
+    }
+
+    &-text-foot {
+      padding-left: 24.5%;
+
+       a {
+        font-size: 19px;
+        color: $white;
+      }
+
+
+      @media screen and (max-width: 1024px) {
+        font-size: 17px;
+      }
+    }
+  }
+
+// telephones in header
+  &--phones-item {
+    margin-right: 1%;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: $rosewood;
+    font-size: 24px;
+    line-height: 1;
+
+    &>span {
+      color: $charm;
+    }
+  }
+// telephones in footer
+
+  &--phones-item-foot {
+    color: $white;
+
+    &>span {
+      color: $white;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size:21px
+    }
+  }
+
+// phones logo icon in header
+  &--phones-logo {
+    position: relative;
+
+    &>i {
+      @include stretch(35px, false, false, 294px);
+
+      display: inline-block;
+      width: 68px;
+      height: 68px;
+
+      background-image: url('../images/tel-ico.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  }
+
+// phones logo icon in footer
+  &--phones-logo-head {
+    padding: 0!important;
+    margin: 0;
+    width: 0;
+
+    i {
+      @include stretch(-53px, false, false, -10px);
+
+      @media screen and (max-width: 1024px) {
+        @include stretch(-45px, false, false, -8px);
+
+        width: 49px;
+      }
+    }
+  }
+
+// bg in header
+  &--head {
+    background-color: $pink;
+  }
+
+// bg in footer
+  &--foot {
+    position: relative;
+
+    padding-top: 80px;
+
+    background-color: $amaranth;
+
+    &:before {
+      @include stretch(10px, 0, 0, false);
+
+      content: '';
+
+      width:100%;
+      height: 2px;
+      border-top: 2px $white dotted;
+    }
+  }
+}

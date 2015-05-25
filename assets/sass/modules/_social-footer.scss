@@ -1,0 +1,38 @@
+.m-social {
+  margin-bottom: 0;
+
+  &--icon {
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  i.vk {
+    background-image: url("../images/vk.png");
+  }
+
+  i.ok {
+    background-image: url("../images/ok.png");
+  }
+
+  i.fb {
+    background-image: url("../images/fb.png");
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin-left: -5px;
+    i {
+      width: 56px;      
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1159px) {
+    margin-left: -15px;
+    i {
+      width: 60px;      
+    }
+  }
+}

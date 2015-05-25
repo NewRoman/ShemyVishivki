@@ -1,0 +1,43 @@
+.m-slider-block {
+  margin-bottom: 60px;
+  
+  &--head {
+    margin-top: 25px;
+    margin-bottom: 45px;
+
+    color: $amaranth;
+    font-size: 30px;
+
+     @media screen and (max-width: 1024px) {
+      font-size: 26px;
+    }
+  }
+
+  .carousel.slide {
+    @include box-shadow (0 0 16px 0px);
+    @include border-radius(10px);
+
+    border: 15px white solid;    
+    box-shadow: 0 0 16px 0px;
+
+    a.left,
+    a.right {
+      top: 90%;
+      left: 88%;
+
+      height: 50px;
+
+      background: none;
+
+      .glyphicon-menu-left,
+      .glyphicon-menu-right {
+        font-size: 56px;
+        color: rgba(0, 0, 0, 0.54);
+      }
+    }
+
+    a.left {
+      left: -3%;
+    }
+  }
+}
