@@ -5,10 +5,14 @@
       <div class="col-sm-6">
         <div class="m-head-foot-top--logo">          
           <h1 class="m-head-foot-top--logo-title m-head-foot-top--logo-title-rose">
-            <i class="m-head-foot-top--logo-ico-head"></i>
-            СХЕМЫ ВЫШИВКИ
+            <a href="">
+              <i class="m-head-foot-top--logo-ico-head"></i>
+              СХЕМЫ ВЫШИВКИ              
+            </a>
           </h1>
-          <p class="m-head-foot-top--logo-text">РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ</p>
+          <p class="m-head-foot-top--logo-text">
+            <a href="">РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ</a>
+          </p>
         </div>
       </div>
       <div class="col-sm-6 col-lg-5 col-lg-offset-1 text-right">
