@@ -4,17 +4,13 @@
     <div class="row">
       <div class="col-sm-6 col-lg-5">
         <div class="m-head-foot-top--logo">          
-          <h1 class="m-head-foot-top--logo-title m-head-foot-top--logo-title-white">
-            <a href="">
-              <i class="m-head-foot-top--logo-ico-foot"></i>
-              СХЕМЫ ВЫШИВКИ              
-            </a>
-          </h1>
-          <p class="m-head-foot-top--logo-text m-head-foot-top--logo-text-foot">
-            <a href="">
-              РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ              
-            </a>
-          </p>
+          <a class="m-head-foot-top--logo-title m-head-foot-top--logo-title-white">
+            <i class="m-head-foot-top--logo-ico-foot"></i>
+            СХЕМЫ ВЫШИВКИ              
+            <p class="m-head-foot-top--logo-text m-head-foot-top--logo-text-foot">
+                РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ              
+            </p>
+          </a>
         </div>
       </div>
 

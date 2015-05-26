@@ -1,10 +1,10 @@
 .l-content-catalog {
   background-image: url('../images/bg-catalog.png');
-  background-repeat: no-repeat;
-  background-position: 0 10%;
-  background-size: 103%; 
+  background-repeat: repeat-x;
+  background-position: 0 90px;
+  // background-size: 103%; 
 
   @media screen and (max-width: 1024px) {
-    background-position: 0 12%;
+    // background-position: 0 12%;
   }
 }

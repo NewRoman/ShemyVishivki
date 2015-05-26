@@ -4,15 +4,14 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="m-head-foot-top--logo">          
-          <h1 class="m-head-foot-top--logo-title m-head-foot-top--logo-title-rose">
-            <a href="">
+          <a class="m-head-foot-top--logo-title m-head-foot-top--logo-title-rose">
               <i class="m-head-foot-top--logo-ico-head"></i>
               СХЕМЫ ВЫШИВКИ              
-            </a>
-          </h1>
-          <p class="m-head-foot-top--logo-text">
-            <a href="">РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ</a>
-          </p>
+            <br/>          
+            <p class="m-head-foot-top--logo-text">
+              РИСУНОК В СХЕМУ БЕЗ ПРОБЛЕМ
+            </p>
+          </a>
         </div>
       </div>
       <div class="col-sm-6 col-lg-5 col-lg-offset-1 text-right">

@@ -1,6 +1,11 @@
 .l-content {
   background-image: url('../images/bg-index.png');
-  background-repeat: no-repeat;
-  background-position: 0 4.7%;
-  background-size: 103%;  
+  background-repeat: repeat-x;
+  background-position: 0 75px;
+
+  @media screen and (max-width: 1024px) {
+    background-size: 100%;
+
+    font-size: 32px;
+  }
 }
