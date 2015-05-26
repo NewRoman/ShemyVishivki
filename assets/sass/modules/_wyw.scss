@@ -3,6 +3,15 @@
 
   border-bottom: 2px $amaranth dotted;
 
+  &--radio-input {
+    display: none;    
+    visibility: hidden;
+
+    &:checked + label>i {
+      background-image: url('../images/fil-check.png');
+    }
+  }
+
   &--opt-list {
     margin: 0;
     padding: 0;
@@ -21,6 +30,8 @@
 
       font-size: 16px;
       color: $gray-dark;
+
+      cursor: default;
     }
 
     &>label>i {

@@ -66,7 +66,7 @@
   </div>
   <div class="row">
     <div class="col-sm-12 text-right">
-      <a href="#" class="m-offer--to-constructor">СОЗДАТЬ СХЕМУ</a>
+      <a href="/constructor.php" class="m-offer--to-constructor">СОЗДАТЬ СХЕМУ</a>
     </div>
   </div>
 </div>

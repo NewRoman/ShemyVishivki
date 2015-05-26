@@ -5,16 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Конструктор вышывок</title>
+    <title>Конструктор вышивок</title>
     
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400|Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
     <link href="assets/stylesheets/app.css" rel="stylesheet">
   </head>
   <body>
 
     <div class="l-wrapper">
-      <!-- <div id="sticky_footer_head"> -->
         <?php
           include 'functions.php';
           head();
@@ -61,79 +59,79 @@
               <div class="container">              
                 <div class="row">
                   <div class="col-sm-12">
-                      <label for="all_in">
-                        <input type="checkbox" checked id="all_in" name="all_in">
-                        <i></i>
-                        <b>НАБОР ДЛЯ ВЫШИВАНИЯ</b> <span>(высылается почтой)</span>, в набор входит:
-                      </label>
+                    <input class="m-wyw--radio-input" type="radio" checked id="all_in" name="wyw">
+                    <label class="m-wyw--radio-label" for="all_in">
+                      <i></i>
+                      <b>НАБОР ДЛЯ ВЫШИВАНИЯ</b> <span>(высылается почтой)</span>, в набор входит:
+                    </label>
 
-                      <ul class="m-wyw--opt-list">
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_1">
-                            <input type="checkbox" checked name="opt_1" id="opt_1" onclick="return false">
-                            <i></i>
-                            схема вышивки (в печатном и электронном виде);
-                          </label>
-                        </li>
+                    <ul class="m-wyw--opt-list" data-opt-list-container>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_1">
+                          <input type="checkbox" checked name="opt_1" id="opt_1" onclick="return false">
+                          <i></i>
+                          схема вышивки (в печатном и электронном виде);
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_2">
-                            <input type="checkbox" checked name="opt_2" id="opt_2" onclick="return false">
-                            <i></i>
-                            канва (размер по желанию);
-                          </label>
-                        </li>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_2">
+                          <input type="checkbox" checked name="opt_2" id="opt_2" onclick="return false">
+                          <i></i>
+                          канва (размер по желанию);
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_3">
-                            <input type="checkbox" checked name="opt_3" id="opt_3" onclick="return false">
-                            <i></i>
-                            нитки;
-                          </label>
-                        </li>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_3">
+                          <input type="checkbox" checked name="opt_3" id="opt_3" onclick="return false">
+                          <i></i>
+                          нитки;
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_4">
-                            <input type="checkbox" checked name="opt_4" id="opt_4" onclick="return false">
-                            <i></i>
-                            иголки 2 шт;
-                          </label>
-                        </li>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_4">
+                          <input type="checkbox" checked name="opt_4" id="opt_4" onclick="return false">
+                          <i></i>
+                          иголки 2 шт;
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_5">
-                            <input type="checkbox" checked name="opt_5" id="opt_5" onclick="return false">
-                            <i></i>
-                            нитковдеватель;
-                          </label>
-                        </li>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_5">
+                          <input type="checkbox" checked name="opt_5" id="opt_5" onclick="return false">
+                          <i></i>
+                          нитковдеватель;
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_6">
-                            <input type="checkbox" checked name="opt_6" id="opt_6" onclick="return false">
-                            <i></i>
-                            водорастворимый маркер по ткани;
-                          </label>
-                        </li>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_6">
+                          <input type="checkbox" checked name="opt_6" id="opt_6" onclick="return false">
+                          <i></i>
+                          водорастворимый маркер по ткани;
+                        </label>
+                      </li>
 
-                        <li class="m-wyw--opt-list-item">
-                          <label for="opt_7">
-                            <input type="checkbox" checked name="opt_7" id="opt_7" onclick="return false">
-                            <i></i>
-                            инструкция.
-                          </label>
-                        </li>
-                      </ul>
+                      <li class="m-wyw--opt-list-item">
+                        <label for="opt_7">
+                          <input type="checkbox" checked name="opt_7" id="opt_7" onclick="return false">
+                          <i></i>
+                          инструкция.
+                        </label>
+                      </li>
+                    </ul>
 
-                      <p class="m-wyw--opt-text">
-                        Чтоб вы не тратили время на подбор компонетнов для созданной вами вышивки, мы готовы собрать вам готовый набор.
-                      </p>
+                    <p class="m-wyw--opt-text">
+                      Чтоб вы не тратили время на подбор компонетнов для созданной вами вышивки, мы готовы собрать вам готовый набор.
+                    </p>
 
-                      <label class="m-wyw--wrap-opt-only-scheme" for="only_scheme">
-                        <input type="checkbox" id="only_scheme" name="only_scheme">
-                        <i></i>
-                        <b>СХЕМА ДЛЯ ВЫШИВАНИЯ</b> <span>(в печатном и электронном виде)</span>
-                      </label>
+                    <input class="m-wyw--radio-input" type="radio" id="only_scheme" role="fade-opt-list" name="wyw">
+                    <label class="m-wyw--radio-label" for="only_scheme">
+                      <i></i>
+                      <b>СХЕМА ДЛЯ ВЫШИВАНИЯ</b> <span>(в печатном и электронном виде)</span>
+                    </label>
 
                   </div>
                 </div>
@@ -279,12 +277,7 @@
           </form>
         </div>
 
-        <!-- <div id="sticky_footer_in_head"></div> -->
-      <!-- </div>       -->
-       
-      <!-- <div id="sticky_footer_foot"> -->
-        <?php footer(); ?>            
-      <!-- </div> -->
+        <?php footer(); ?>        
 
     </div>
  
