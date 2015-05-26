@@ -57,7 +57,7 @@
               </div>
             </div>
 
-            <div class="m-wyw"><!-- wyw -- What You Want -->
+            <div class="m-wyw"><!-- wyw is What You Want -->
               <div class="container">              
                 <div class="row">
                   <div class="col-sm-12">
@@ -70,7 +70,7 @@
                       <ul class="m-wyw--opt-list">
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_1">
-                            <input type="checkbox" checked name="opt_1" id="opt_1">
+                            <input type="checkbox" checked name="opt_1" id="opt_1" onclick="return false">
                             <i></i>
                             схема вышивки (в печатном и электронном виде);
                           </label>
@@ -78,7 +78,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_2">
-                            <input type="checkbox" checked name="opt_2" id="opt_2">
+                            <input type="checkbox" checked name="opt_2" id="opt_2" onclick="return false">
                             <i></i>
                             канва (размер по желанию);
                           </label>
@@ -86,7 +86,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_3">
-                            <input type="checkbox" checked name="opt_3" id="opt_3">
+                            <input type="checkbox" checked name="opt_3" id="opt_3" onclick="return false">
                             <i></i>
                             нитки;
                           </label>
@@ -94,7 +94,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_4">
-                            <input type="checkbox" checked name="opt_4" id="opt_4">
+                            <input type="checkbox" checked name="opt_4" id="opt_4" onclick="return false">
                             <i></i>
                             иголки 2 шт;
                           </label>
@@ -102,7 +102,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_5">
-                            <input type="checkbox" checked name="opt_5" id="opt_5">
+                            <input type="checkbox" checked name="opt_5" id="opt_5" onclick="return false">
                             <i></i>
                             нитковдеватель;
                           </label>
@@ -110,7 +110,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_6">
-                            <input type="checkbox" checked name="opt_6" id="opt_6">
+                            <input type="checkbox" checked name="opt_6" id="opt_6" onclick="return false">
                             <i></i>
                             водорастворимый маркер по ткани;
                           </label>
@@ -118,7 +118,7 @@
 
                         <li class="m-wyw--opt-list-item">
                           <label for="opt_7">
-                            <input type="checkbox" checked name="opt_7" id="opt_7">
+                            <input type="checkbox" checked name="opt_7" id="opt_7" onclick="return false">
                             <i></i>
                             инструкция.
                           </label>
