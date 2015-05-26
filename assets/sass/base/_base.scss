@@ -2,16 +2,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 
-  // height: auto;
+  // @include sticky-footer(292px, "#sticky_footer_head", "#sticky_footer_in_head", "#sticky_footer_foot")
 
-  // background-color: #f1f1f1;
-  // background-image: url(../images/back.png);
-  // background-repeat: no-repeat;
-  // background-color: #f1f1f1;
-  // background-position: top;
-
-  // font-size: 14px;
-  @include sticky-footer(292px, "#sticky_footer_head", "#sticky_footer_in_head", "#sticky_footer_foot")
 }
 
 label {
@@ -73,7 +65,7 @@ button {
  h4,
  h5,
  h6 {  
-  font-family: 'Roboto Condensed', sans-serif; 
+  font-family: 'RobotoCondensed-Regular', sans-serif; 
  }
 
 input[type="text"],

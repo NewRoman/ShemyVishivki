@@ -21,39 +21,45 @@
     <div class="col-sm-12 text-center">
       <ul class="list-inline m-offer--list">
         <li class="m-offer--item text-center">
-          <i class="icon-scheme"></i><br>
-          <span>СХЕМА ВЫШИВКИ<br> 
-          (в печатном и электронном виде)
-          </span>
+          <i class="icon-scheme"></i>
+          <div class="m-offer--item-divider"></div>
+          <span>СХЕМА ВЫШИВКИ</span>
+          <b>(в печатном и электронном виде)</b>
         </li>
 
         <li class="m-offer--item text-center">
-          <i class="icon-canvas"></i><br>
-          <span>КАНВА<br> 
-            (размер по желанию)
-          </span>
+          <i class="icon-canvas"></i>
+          <div class="m-offer--item-divider"></div>
+          <span>КАНВА</span>
+          <b>(размер по желанию)</b>          
         </li>
 
         <li class="m-offer--item text-center">
-          <i class="icon-thread"></i><br>
+          <i class="icon-thread"></i>
+          <div class="m-offer--item-divider"></div>
           <span>Нитка</span>
+          <b> </b>
         </li>
 
         <li class="m-offer--item text-center">
-          <i class="icon-bullet"></i><br>
+          <i class="icon-bullet"></i>
+          <div class="m-offer--item-divider"></div>
           <span>НИТКООДЕВАТЕЛЬ</span>
+          <b> </b>
         </li>
 
         <li class="m-offer--item text-center">
-          <i class="icon-marker"></i><br>
-          <span>водорастворимый маркер <br>
-                (по ткани)
-          </span>
+          <i class="icon-marker"></i>
+          <div class="m-offer--item-divider"></div>
+          <span>водорастворимый маркер</span>
+          <b>(по ткани)</b>          
         </li>
 
         <li class="m-offer--item text-center">
-          <i class="icon-manual"></i><br>
+          <i class="icon-manual"></i>
+          <div class="m-offer--item-divider"></div>
           <span>ИНСТРУКЦИЯ</span>
+          <b> </b>
         </li>
       </ul>      
     </div>
