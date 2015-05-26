@@ -8579,7 +8579,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 10, ../sass/base/_base.scss */
+/* line 9, ../sass/base/_base.scss */
 label {
   position: relative;
   padding-left: 64px;
@@ -8588,7 +8588,7 @@ label {
   color: #6c241f;
   cursor: pointer;
 }
-/* line 21, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 label > i {
   position: absolute;
   top: -4px;
@@ -8599,21 +8599,21 @@ label > i {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 32, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 label > input[type="checkbox"] {
   visibility: hidden;
   display: none;
 }
-/* line 37, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 label > b {
   color: #38383a;
 }
-/* line 41, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 label > span {
   color: #e83e52;
 }
 
-/* line 47, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 button {
   padding: 15px;
   background-color: #CF2F22;
@@ -8623,12 +8623,12 @@ button {
   color: #FFF;
   font-size: 18px;
 }
-/* line 58, ../sass/base/_base.scss */
+/* line 57, ../sass/base/_base.scss */
 button:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 63, ../sass/base/_base.scss */
+/* line 62, ../sass/base/_base.scss */
 h1,
 h2,
 h3,
@@ -8638,7 +8638,7 @@ h6 {
   font-family: 'RobotoCondensed-Regular', sans-serif;
 }
 
-/* line 72, ../sass/base/_base.scss */
+/* line 71, ../sass/base/_base.scss */
 input[type="text"],
 textarea {
   margin-bottom: 10px;
@@ -8648,7 +8648,7 @@ textarea {
   background: none;
   font-size: 16px;
 }
-/* line 83, ../sass/base/_base.scss */
+/* line 82, ../sass/base/_base.scss */
 input[type="text"]:focuse,
 textarea:focuse {
   outline: none;
@@ -8988,7 +8988,7 @@ textarea:focuse {
 /* line 23, ../sass/modules/_slider-block.scss */
 .m-slider-block .carousel.slide a.left,
 .m-slider-block .carousel.slide a.right {
-  top: 90%;
+  top: 85%;
   left: 88%;
   height: 50px;
   background: none;
@@ -9108,10 +9108,16 @@ textarea:focuse {
 .m-offer--to-constructor {
   display: inline-block;
   margin-right: 5px;
-  padding: 15px 100px;
+  padding: 15px 9%;
   background-color: #CF2F22;
   font-size: 18px;
   color: #FFF;
+}
+@media screen and (max-width: 1024px) {
+  /* line 99, ../sass/modules/_offer.scss */
+  .m-offer--to-constructor {
+    margin-right: 0;
+  }
 }
 
 /* line 1, ../sass/modules/_samplers.scss */
@@ -9320,11 +9326,7 @@ textarea:focuse {
 .m-cat-list--item:nth-child(4n+4) {
   margin-right: 0px;
 }
-/* line 27, ../sass/modules/_cat-list.scss */
-.m-cat-list--item:hover > a.m-cat-list--l-image {
-  border: 3px #5d3f57 solid;
-}
-/* line 32, ../sass/modules/_cat-list.scss */
+/* line 28, ../sass/modules/_cat-list.scss */
 .m-cat-list--l-image {
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -9336,7 +9338,7 @@ textarea:focuse {
   overflow: hidden;
   text-align: center;
 }
-/* line 43, ../sass/modules/_cat-list.scss */
+/* line 39, ../sass/modules/_cat-list.scss */
 .m-cat-list--l-image > img {
   -moz-border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px;
@@ -9345,19 +9347,19 @@ textarea:focuse {
   display: inline-block;
   width: 100%;
 }
-/* line 52, ../sass/modules/_cat-list.scss */
+/* line 48, ../sass/modules/_cat-list.scss */
 .m-cat-list p {
   margin-bottom: 0;
 }
-/* line 56, ../sass/modules/_cat-list.scss */
+/* line 52, ../sass/modules/_cat-list.scss */
 .m-cat-list--size {
   font-weight: 600;
 }
-/* line 60, ../sass/modules/_cat-list.scss */
+/* line 56, ../sass/modules/_cat-list.scss */
 .m-cat-list--title {
   color: #e83e52;
 }
-/* line 64, ../sass/modules/_cat-list.scss */
+/* line 60, ../sass/modules/_cat-list.scss */
 .m-cat-list--options {
   padding-left: 8%;
   padding-bottom: 10px;
@@ -9365,11 +9367,11 @@ textarea:focuse {
   border-bottom: 1px #e83e52 solid;
   list-style-type: none;
 }
-/* line 73, ../sass/modules/_cat-list.scss */
+/* line 69, ../sass/modules/_cat-list.scss */
 .m-cat-list--options-item {
   position: relative;
 }
-/* line 77, ../sass/modules/_cat-list.scss */
+/* line 73, ../sass/modules/_cat-list.scss */
 .m-cat-list--options-item i {
   position: absolute;
   top: 9px;
@@ -9387,7 +9389,7 @@ textarea:focuse {
   border: 1px rgba(232, 62, 82, 0.6) solid;
   background-color: rgba(232, 62, 82, 0.6);
 }
-/* line 92, ../sass/modules/_cat-list.scss */
+/* line 88, ../sass/modules/_cat-list.scss */
 .m-cat-list--price {
   display: block;
   margin: 0 auto;
@@ -9397,12 +9399,12 @@ textarea:focuse {
   color: #CF2F22;
   font-weight: 600;
 }
-/* line 103, ../sass/modules/_cat-list.scss */
+/* line 99, ../sass/modules/_cat-list.scss */
 .m-cat-list--in-cart {
   width: 100%;
 }
 @media screen and (max-width: 1024px) {
-  /* line 103, ../sass/modules/_cat-list.scss */
+  /* line 99, ../sass/modules/_cat-list.scss */
   .m-cat-list--in-cart {
     padding: 7px;
   }
@@ -9492,6 +9494,15 @@ textarea:focuse {
   border-bottom: 2px #e83e52 dotted;
 }
 /* line 6, ../sass/modules/_wyw.scss */
+.m-wyw--radio-input {
+  display: none;
+  visibility: hidden;
+}
+/* line 10, ../sass/modules/_wyw.scss */
+.m-wyw--radio-input:checked + label > i {
+  background-image: url("../images/fil-check.png");
+}
+/* line 15, ../sass/modules/_wyw.scss */
 .m-wyw--opt-list {
   margin: 0;
   padding: 0;
@@ -9499,24 +9510,25 @@ textarea:focuse {
   width: 675px;
   list-style-type: none;
 }
-/* line 15, ../sass/modules/_wyw.scss */
+/* line 24, ../sass/modules/_wyw.scss */
 .m-wyw--opt-list-item {
   margin-bottom: 5px;
   border-bottom: 1px #c2cacb solid;
 }
-/* line 19, ../sass/modules/_wyw.scss */
+/* line 28, ../sass/modules/_wyw.scss */
 .m-wyw--opt-list-item > label {
   padding-left: 45px;
   font-size: 16px;
   color: #38383a;
+  cursor: default;
 }
-/* line 26, ../sass/modules/_wyw.scss */
+/* line 37, ../sass/modules/_wyw.scss */
 .m-wyw--opt-list-item > label > i {
   top: 2px;
   width: 18px;
   height: 18px;
 }
-/* line 34, ../sass/modules/_wyw.scss */
+/* line 45, ../sass/modules/_wyw.scss */
 .m-wyw--opt-text {
   margin-top: 25px;
   margin-bottom: 40px;
@@ -9601,31 +9613,31 @@ textarea:focuse {
   width: 100%;
 }
 
-/* line 1, ../sass/state/_index.scss */
+/* line 2, ../sass/state/_index.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 7, ../sass/state/_index.scss */
+/* line 8, ../sass/state/_index.scss */
 .m-nav--link:hover, .m-nav--link.active {
   border-bottom: 2px #dc7b8d solid;
   text-decoration: none;
   color: #dc7b8d;
 }
 
-/* line 17, ../sass/state/_index.scss */
+/* line 18, ../sass/state/_index.scss */
 .m-nav--link-foot:hover, .m-nav--link-foot.active {
   border-bottom: 2px #e83e52 solid;
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 27, ../sass/state/_index.scss */
+/* line 28, ../sass/state/_index.scss */
 .m-offer--to-constructor:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 33, ../sass/state/_index.scss */
+/* line 34, ../sass/state/_index.scss */
 .m-filters--link:hover, .m-filters--link.active {
   text-decoration: underline;
   color: #e83e52;
@@ -9638,4 +9650,10 @@ label > i {
 /* line 51, ../sass/state/_index.scss */
 label > input[type="checkbox"]:checked + i {
   background-image: url("../images/fil-check.png");
+}
+
+/* line 58, ../sass/state/_index.scss */
+.m-cat-list--item:hover {
+  -webkit-box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);
+  box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);
 }

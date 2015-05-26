@@ -8,13 +8,12 @@
     <title>Каталог вышывок</title>
     
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400|Roboto:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
     <link href="assets/stylesheets/app.css" rel="stylesheet">
   </head>
   <body>
 
     <div class="l-wrapper">
-      <!-- <div id="sticky_footer_head"> -->
+
         <?php
           include 'functions.php';
           head();
@@ -35,15 +34,9 @@
           </div>
         </div>
 
-        <!-- <div id="sticky_footer_in_head"></div> -->
-      <!-- </div>       -->
-       
-      <!-- <div id="sticky_footer_foot"> -->
         <?php footer(); ?>            
-      <!-- </div> -->
 
-    </div>
- 
+    </div> 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="assets/javascripts/bootstrap.min.js"></script>

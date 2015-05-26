@@ -1,3 +1,4 @@
+
 a:hover {
   text-decoration: none;
 }
@@ -32,7 +33,6 @@ a:hover {
 .m-filters--link {
   &:hover,
   &.active {
-    // border-bottom-color: $amaranth;
     text-decoration: underline;
 
     color: $amaranth;
@@ -52,4 +52,9 @@ label {
       background-image: url('../images/fil-check.png');
     }
   }
+}
+
+// ховер еффект при наведени на ячейку товара на списке товаров
+.m-cat-list--item:hover {
+  @include box-shadow(0 0 10px 10px rgba($thunderbird, 0.3));
 }
