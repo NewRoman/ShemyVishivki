@@ -9613,14 +9613,10 @@ textarea:focuse {
   width: 100%;
 }
 
-/* line 1, ../sass/modules/_title-page.scss */
-.m-title-page {
-  background-color: #f2fcfd;
-}
 /* line 4, ../sass/modules/_title-page.scss */
 .m-title-page--text {
-  margin-top: 15px;
-  margin-bottom: 9px;
+  margin-top: 27px;
+  margin-bottom: 15px;
   color: #e83e52;
   font-size: 30px;
   text-transform: uppercase;
