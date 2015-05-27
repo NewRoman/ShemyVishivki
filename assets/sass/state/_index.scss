@@ -1,6 +1,7 @@
-
-a:hover {
+//забрать обводку ссылки при клике по ней
+a:active,a:hover {
   text-decoration: none;
+  outline: none;
 }
 
 // разные состояния ссылок в главном меню хедера

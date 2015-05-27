@@ -21,6 +21,16 @@
 
         <div class="l-content-catalog">
 
+          <div class="m-title-page">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                  <h1 class="m-title-page--text">Готовые схемы</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <?php filters();?>
 
           <div class="container">

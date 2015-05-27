@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="m-head-foot-top--logo">          
-          <a class="m-head-foot-top--logo-title m-head-foot-top--logo-title-rose">
+          <a href="/index.php" class="m-head-foot-top--logo-title m-head-foot-top--logo-title-rose">
               <i class="m-head-foot-top--logo-ico-head"></i>
               СХЕМЫ ВЫШИВКИ              
             <br/>          

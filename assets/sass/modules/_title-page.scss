@@ -1,0 +1,12 @@
+.m-title-page {
+  background-color: $body-bg;
+
+  &--text {
+    margin-top: 15px;
+    margin-bottom: 9px;
+
+    color: $amaranth;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}

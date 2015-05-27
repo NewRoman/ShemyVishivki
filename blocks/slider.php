@@ -2,9 +2,9 @@
 <div class="m-slider-block">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <h2 class="m-slider-block--head">
+      <h1 class="m-slider-block--head">
         ДОБРО ПОЖАЛОВАТЬ НА САЙТ ПО СОЗДАНИЮ СХЕМ ДЛЯ ВЫШИВКИ
-      </h2>
+      </h1>
 
       <div id="main_carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->

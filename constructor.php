@@ -19,8 +19,18 @@
         ?>  
 
         <div class="l-content-constructor">
-          <form action="/" method="POST">
 
+          <div class="m-title-page">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                  <h1 class="m-title-page--text">Создать свою схему</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <form action="/" method="POST">
             <div class="m-step-head m-step-head--white-bg">
               <div class="container">
                 <div class="row">

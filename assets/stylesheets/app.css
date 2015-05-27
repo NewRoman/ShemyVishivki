@@ -8579,7 +8579,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 9, ../sass/base/_base.scss */
+/* line 6, ../sass/base/_base.scss */
 label {
   position: relative;
   padding-left: 64px;
@@ -8588,7 +8588,7 @@ label {
   color: #6c241f;
   cursor: pointer;
 }
-/* line 20, ../sass/base/_base.scss */
+/* line 17, ../sass/base/_base.scss */
 label > i {
   position: absolute;
   top: -4px;
@@ -8599,21 +8599,21 @@ label > i {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 31, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 label > input[type="checkbox"] {
   visibility: hidden;
   display: none;
 }
-/* line 36, ../sass/base/_base.scss */
+/* line 33, ../sass/base/_base.scss */
 label > b {
   color: #38383a;
 }
-/* line 40, ../sass/base/_base.scss */
+/* line 37, ../sass/base/_base.scss */
 label > span {
   color: #e83e52;
 }
 
-/* line 46, ../sass/base/_base.scss */
+/* line 43, ../sass/base/_base.scss */
 button {
   padding: 15px;
   background-color: #CF2F22;
@@ -8623,12 +8623,12 @@ button {
   color: #FFF;
   font-size: 18px;
 }
-/* line 57, ../sass/base/_base.scss */
+/* line 54, ../sass/base/_base.scss */
 button:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 62, ../sass/base/_base.scss */
+/* line 59, ../sass/base/_base.scss */
 h1,
 h2,
 h3,
@@ -8638,7 +8638,7 @@ h6 {
   font-family: 'RobotoCondensed-Regular', sans-serif;
 }
 
-/* line 71, ../sass/base/_base.scss */
+/* line 68, ../sass/base/_base.scss */
 input[type="text"],
 textarea {
   margin-bottom: 10px;
@@ -8648,7 +8648,7 @@ textarea {
   background: none;
   font-size: 16px;
 }
-/* line 82, ../sass/base/_base.scss */
+/* line 79, ../sass/base/_base.scss */
 input[type="text"]:focuse,
 textarea:focuse {
   outline: none;
@@ -9613,46 +9613,60 @@ textarea:focuse {
   width: 100%;
 }
 
-/* line 2, ../sass/state/_index.scss */
-a:hover {
-  text-decoration: none;
+/* line 1, ../sass/modules/_title-page.scss */
+.m-title-page {
+  background-color: #f2fcfd;
+}
+/* line 4, ../sass/modules/_title-page.scss */
+.m-title-page--text {
+  margin-top: 15px;
+  margin-bottom: 9px;
+  color: #e83e52;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
-/* line 8, ../sass/state/_index.scss */
+/* line 2, ../sass/state/_index.scss */
+a:active, a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 9, ../sass/state/_index.scss */
 .m-nav--link:hover, .m-nav--link.active {
   border-bottom: 2px #dc7b8d solid;
   text-decoration: none;
   color: #dc7b8d;
 }
 
-/* line 18, ../sass/state/_index.scss */
+/* line 19, ../sass/state/_index.scss */
 .m-nav--link-foot:hover, .m-nav--link-foot.active {
   border-bottom: 2px #e83e52 solid;
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 28, ../sass/state/_index.scss */
+/* line 29, ../sass/state/_index.scss */
 .m-offer--to-constructor:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 34, ../sass/state/_index.scss */
+/* line 35, ../sass/state/_index.scss */
 .m-filters--link:hover, .m-filters--link.active {
   text-decoration: underline;
   color: #e83e52;
 }
 
-/* line 45, ../sass/state/_index.scss */
+/* line 46, ../sass/state/_index.scss */
 label > i {
   background-image: url("../images/empty-check.png");
 }
-/* line 51, ../sass/state/_index.scss */
+/* line 52, ../sass/state/_index.scss */
 label > input[type="checkbox"]:checked + i {
   background-image: url("../images/fil-check.png");
 }
 
-/* line 58, ../sass/state/_index.scss */
+/* line 59, ../sass/state/_index.scss */
 .m-cat-list--item:hover {
   -webkit-box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);
   box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);
