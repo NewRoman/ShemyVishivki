@@ -35,8 +35,8 @@
           <li class="m-nav--item"><a href="/index.php" class="m-nav--link active">Главная</a></li>
           <li class="m-nav--item"><a href="/constructor.php" class="m-nav--link">Создать свою схему</a></li>
           <li class="m-nav--item"><a href="/catalog.php" class="m-nav--link">Каталог товаров</a></li>
-          <li class="m-nav--item"><a href="" class="m-nav--link">Оплата и доставка</a></li>
-          <li class="m-nav--item"><a href="" class="m-nav--link">Статьи</a></li>
+          <li class="m-nav--item"><a href="/info.php" class="m-nav--link">Оплата и доставка</a></li>
+          <li class="m-nav--item"><a href="/news-list.php" class="m-nav--link">Статьи</a></li>
         </ul>
       </div>
     </div>  

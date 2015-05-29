@@ -41,8 +41,8 @@
           <li class="m-nav--item"><a href="/index.php" class="m-nav--link m-nav--link-foot active">Главная</a></li>
           <li class="m-nav--item"><a href="/constructor.php" class="m-nav--link m-nav--link-foot">Создать свою схему</a></li>
           <li class="m-nav--item"><a href="/catalog.php" class="m-nav--link m-nav--link-foot">Каталог товаров</a></li>
-          <li class="m-nav--item"><a href="" class="m-nav--link m-nav--link-foot">Оплата и доставка</a></li>
-          <li class="m-nav--item"><a href="" class="m-nav--link m-nav--link-foot">Статьи</a></li>
+          <li class="m-nav--item"><a href="/info.php" class="m-nav--link m-nav--link-foot">Оплата и доставка</a></li>
+          <li class="m-nav--item"><a href="/news-list.php" class="m-nav--link m-nav--link-foot">Статьи</a></li>
         </ul>
       </div>
     </div>  

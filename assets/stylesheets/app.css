@@ -9622,6 +9622,35 @@ textarea:focuse {
   text-transform: uppercase;
 }
 
+/* line 1, ../sass/modules/_typo.scss */
+.m-typo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 5, ../sass/modules/_typo.scss */
+.m-typo h2, .m-typo h3 {
+  margin: 10px 0;
+  color: #5e0700;
+}
+/* line 11, ../sass/modules/_typo.scss */
+.m-typo h4, .m-typo h5, .m-typo h6 {
+  margin: 10px 0;
+  color: #dc7b8d;
+}
+/* line 17, ../sass/modules/_typo.scss */
+.m-typo a {
+  color: #dc7b8d;
+}
+/* line 21, ../sass/modules/_typo.scss */
+.m-typo p {
+  margin: 20px 0;
+  text-align: justify;
+}
+/* line 30, ../sass/modules/_typo.scss */
+.m-typo ul li {
+  margin-bottom: 5px;
+}
+
 /* line 2, ../sass/state/_index.scss */
 a:active, a:hover {
   text-decoration: none;
