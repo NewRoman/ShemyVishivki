@@ -40,6 +40,14 @@ a:active,a:hover {
   }
 }
 
+
+// ссылка на страницу одной статьи при ховере
+.m-news-list-cell--title {
+  &>a:hover {
+    text-decoration: underline;
+  }
+}
+
 // кастомизированые чекбоксы для всего сайта
 label {
 

@@ -36,5 +36,9 @@
     include 'blocks/categories-menu.php';
   }
 
+  function news_list_cell() {
+    include 'blocks/news-list-cell.php';
+  }
+
 
 

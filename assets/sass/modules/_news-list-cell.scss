@@ -1,0 +1,26 @@
+.m-news-list-cell {
+  padding-bottom: 15px;
+
+  border-bottom: 1px $pig-pink solid;
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
+
+  &--title {
+    margin: 0;
+    margin-top: 15px;
+
+    &>a {
+      color: $rosewood;
+    }
+  }
+
+  &--read-link {
+    color: $charm;
+
+    &>span:before {
+      font-size: 10px;
+    }
+  }
+}
