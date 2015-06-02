@@ -2,7 +2,7 @@
 <div class="m-head-foot-top m-head-foot-top--foot">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-lg-5">
+      <div class="col-xs-6 col-lg-5">
         <div class="m-head-foot-top--logo">          
           <a href="/index.php" class="m-head-foot-top--logo-title m-head-foot-top--logo-title-white">
             <i class="m-head-foot-top--logo-ico-foot"></i>
@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3 col-lg-4 text-center">
+      <div class="col-xs-3 col-lg-4 text-center">
         <ul class="list-inline m-social">
           <li class="m-social--item"><a href="" class="m-social--link"><i class="m-social--icon vk"></i></a></li>
           <li class="m-social--item"><a href="" class="m-social--link"><i class="m-social--icon ok"></i></a></li>
@@ -22,7 +22,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-3 col-lg-3">
+      <div class="col-xs-3 col-lg-3">
         <ul class="list-inline m-head-foot-top--phones-list">
           <li class="m-head-foot-top--phones-item m-head-foot-top--phones-item-foot"><span><b>+3(098)</b></span>2345986</li>
           <li class="m-head-foot-top--phones-item m-head-foot-top--phones-item-foot"><span><b>+3(093)</b></span>1234134</li>

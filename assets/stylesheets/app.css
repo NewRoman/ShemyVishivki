@@ -5568,7 +5568,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-device-width: 899px) and (orientation: landscape) {
   /* line 92, ../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -8576,10 +8576,11 @@ button.close {
 }
 /* line 2, ../sass/base/_base.scss */
 body {
+  min-width: 899px;
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 6, ../sass/base/_base.scss */
+/* line 7, ../sass/base/_base.scss */
 label {
   position: relative;
   padding-left: 64px;
@@ -8588,7 +8589,7 @@ label {
   color: #6c241f;
   cursor: pointer;
 }
-/* line 17, ../sass/base/_base.scss */
+/* line 18, ../sass/base/_base.scss */
 label > i {
   position: absolute;
   top: -4px;
@@ -8599,21 +8600,21 @@ label > i {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 28, ../sass/base/_base.scss */
+/* line 29, ../sass/base/_base.scss */
 label > input[type="checkbox"] {
   visibility: hidden;
   display: none;
 }
-/* line 33, ../sass/base/_base.scss */
+/* line 34, ../sass/base/_base.scss */
 label > b {
   color: #38383a;
 }
-/* line 37, ../sass/base/_base.scss */
+/* line 38, ../sass/base/_base.scss */
 label > span {
   color: #e83e52;
 }
 
-/* line 43, ../sass/base/_base.scss */
+/* line 44, ../sass/base/_base.scss */
 button {
   padding: 15px;
   background-color: #CF2F22;
@@ -8623,12 +8624,12 @@ button {
   color: #FFF;
   font-size: 18px;
 }
-/* line 54, ../sass/base/_base.scss */
+/* line 55, ../sass/base/_base.scss */
 button:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 59, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
 h1,
 h2,
 h3,
@@ -8638,7 +8639,7 @@ h6 {
   font-family: 'RobotoCondensed-Regular', sans-serif;
 }
 
-/* line 68, ../sass/base/_base.scss */
+/* line 69, ../sass/base/_base.scss */
 input[type="text"],
 textarea {
   margin-bottom: 10px;
@@ -8648,7 +8649,7 @@ textarea {
   background: none;
   font-size: 16px;
 }
-/* line 79, ../sass/base/_base.scss */
+/* line 80, ../sass/base/_base.scss */
 input[type="text"]:focuse,
 textarea:focuse {
   outline: none;
