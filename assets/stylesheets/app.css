@@ -8681,7 +8681,7 @@ textarea:focuse {
   padding-bottom: 60px;
   background-image: url("../images/bg-index.png");
   background-repeat: repeat-x;
-  background-position: 0 5.3%;
+  background-position: 0 9%;
 }
 
 /* line 1, ../sass/modules/_head-foot-top.scss */
@@ -9647,9 +9647,40 @@ textarea:focuse {
   margin: 20px 0;
   text-align: justify;
 }
-/* line 30, ../sass/modules/_typo.scss */
+/* line 29, ../sass/modules/_typo.scss */
 .m-typo ul li {
   margin-bottom: 5px;
+}
+/* line 34, ../sass/modules/_typo.scss */
+.m-typo-reset-padding {
+  padding: 0;
+}
+
+/* line 1, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell {
+  padding-bottom: 15px;
+  border-bottom: 1px #fde1e6 solid;
+}
+/* line 6, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell:last-child {
+  margin-bottom: 30px;
+}
+/* line 10, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell--title {
+  margin: 0;
+  margin-top: 15px;
+}
+/* line 14, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell--title > a {
+  color: #5e0700;
+}
+/* line 19, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell--read-link {
+  color: #dc7b8d;
+}
+/* line 22, ../sass/modules/_news-list-cell.scss */
+.m-news-list-cell--read-link > span:before {
+  font-size: 10px;
 }
 
 /* line 2, ../sass/state/_index.scss */
@@ -9684,15 +9715,20 @@ a:active, a:hover {
 }
 
 /* line 46, ../sass/state/_index.scss */
+.m-news-list-cell--title > a:hover {
+  text-decoration: underline;
+}
+
+/* line 54, ../sass/state/_index.scss */
 label > i {
   background-image: url("../images/empty-check.png");
 }
-/* line 52, ../sass/state/_index.scss */
+/* line 60, ../sass/state/_index.scss */
 label > input[type="checkbox"]:checked + i {
   background-image: url("../images/fil-check.png");
 }
 
-/* line 59, ../sass/state/_index.scss */
+/* line 67, ../sass/state/_index.scss */
 .m-cat-list--item:hover {
   -webkit-box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);
   box-shadow: 0 0 10px 10px rgba(207, 47, 34, 0.3);

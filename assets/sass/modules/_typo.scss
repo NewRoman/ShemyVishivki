@@ -1,6 +1,6 @@
 .m-typo {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; 
 
   h2,h3 {    
     margin: 10px 0;
@@ -25,10 +25,13 @@
   }
 
   ul {
-    // margin-left: 5px;
 
     li {
       margin-bottom: 5px;
     }
+  }
+
+  &-reset-padding {
+    padding: 0;
   }
 }
